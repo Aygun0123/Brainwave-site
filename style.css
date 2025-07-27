@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: #F8F9FC;
+}
+
+
+.header {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 96px;
+  background-color: #68D5851A;
+}
+.Brainwave.io {
+  font-size: 28px;
+  color: #161C2D;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Navigasiya menyusu */
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: #18191F;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  transition: all 0.3s ease;
+}
+
+.nav-items:hover {
+  color: #FB6D45;
+}
+/* Login və Sign up */
+.button {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.login {
+  text-decoration: none;
+  color: #161C2D;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  transition: all 0.3s ease;
+}
+
+.login:hover {
+  color: #FB6D45;
+}
+/* hero section */
+.hero {
+  height: 685px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 229px 354px;
+  background-color: #68D5851A;
+}
+
+.hero-text  {
+  width: 518px;
+  height: 402px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero-title{
+  font-size: 60px;
+  font-weight: 700;
+  color: #161C2D;
+  line-height: 65px;
+}
+.hero-item{
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  color: #161C2D;
+}
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 481px;
+  
+  object-fit: contain;
+}
+.Company {
+  text-align: center;
+  padding: 96px 48px;
+  background-color: #ffffff;
+}
+
+.Company-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #161C2D;
+  margin-bottom: 16px;
+}
+
+.Company-item {
+  font-size: 16px;
+  color: #6E6E6E;
+  max-width: 720px;
+  margin: 0 auto 48px;
+  line-height: 28px;
+}
+
+.Company-logo {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.Company-logo img {
+  height: 24px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.Company-logo img:hover {
+  opacity: 1;
+}
+
