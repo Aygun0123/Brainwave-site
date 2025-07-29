@@ -152,4 +152,67 @@ body {
 .Company-logo img:hover {
   opacity: 1;
 }
+/* category section */
+.category-section {
+  background-color: #161C2D;
+  color: #FFFFFF;
+  padding: 90px 60px;
+}
+.category-content {
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+.category-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.category-description {
+  font-size: 19px;
+  color: #FFFFFF;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 117px));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category-card {
+  background-color: #1a1f2b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  transition: background 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  background-color: #473BF0;
+  transform: translateY(-5px);
+}
+
+.category-card span {
+  display: block;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.category-card small {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+
 
