@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100hv;
+}
+
+.site-header {
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* İstəyə görə kölgə */
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #161C2D;
+}
+
+
+.container {
+  background-color: #F4F7FA;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto; 
+  text-align: center;
+}
+
+
+.title {
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.subtitle {
+  font-size: 19px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.signup-form label {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+
+.signup-form input {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.signup-form button {
+  background-color: #473BF0;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #0033cc;
+}
+
+.signin-link {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.signin-link a {
+  color: #473BF0;
+  text-decoration: none;
+}
+/* footer */
+.footer {
+  background-color: #161C2D;
+  color: #ffffff;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center; 
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 300px;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 15px;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.social-icons a img {
+  width: 20px;
+  margin-right: 12px;
+  transition: opacity 0.3s;
+}
+
+.social-icons a img:hover {
+  background-color: #68D585;
+  opacity: 0.7;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2 1 600px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.footer-title {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu {
+  margin-bottom: 8px;
+}
+
+.menu {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
