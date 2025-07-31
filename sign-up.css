@@ -1,41 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
-     box-sizing: border-box;
+:root {
+  --color-bg: #f4f4f4;
+  --color-white: #ffffff;
+  --color-dark: #161C2D;
+  --color-primary: #473BF0;
+  --color-primary-hover: #0033cc;
+  --color-light-gray: #F4F7FA;
+  --color-text: #6c757d;
+  --color-border: #ccc;
+  --color-success: #68D585;
+
+  --font-main: Arial, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
-body {
-  background-color: #f4f4f4;
+
+* {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  min-height: 100hv;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-main);
+  min-height: 100vh;
 }
 
 .site-header {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
   text-align: center;
   padding: 20px 0;
-  margin-top: 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* İstəyə görə kölgə */
+  box-shadow: var(--shadow-sm);
 }
 
 
 .logo {
   font-size: 24px;
   font-weight: 700;
-  color: #161C2D;
+  color: var(--color-dark);
 }
 
 
 .container {
-  background-color: #F4F7FA;
+  background-color: var(--color-light-gray);
   padding: 40px 30px;
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
   width: 100%;
   max-width: 400px;
-  margin: 40px auto; 
+  margin: 40px auto;
   text-align: center;
 }
 
@@ -70,24 +87,24 @@ body {
 .signup-form input {
   padding: 10px;
   font-size: 15px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
   margin-bottom: 20px;
 }
 
 .signup-form button {
-  background-color: #473BF0;
+  background-color: var(--color-primary);
   color: white;
   padding: 12px;
   font-size: 16px;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .signup-form button:hover {
-  background-color: #0033cc;
+  background-color: var(--color-primary-hover);
 }
 
 .signin-link {
@@ -96,16 +113,17 @@ body {
 }
 
 .signin-link a {
-  color: #473BF0;
+  color: var(--color-primary);
   text-decoration: none;
 }
-/* footer */
+
+/* Footer */
 .footer {
-  background-color: #161C2D;
-  color: #ffffff;
+  background-color: var(--color-dark);
+  color: var(--color-white);
   padding: 100px 20px;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .footer-container {
@@ -145,7 +163,7 @@ body {
 }
 
 .social-icons a img:hover {
-  background-color: #68D585;
+  background-color: var(--color-success);
   opacity: 0.7;
 }
 
@@ -175,8 +193,12 @@ body {
 }
 
 .menu {
-  color: #FFFFFF;
+  color: var(--color-white);
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s;
+}
+
+.menu:hover {
+  color: var(--color-success);
 }
