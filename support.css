@@ -1,0 +1,189 @@
+.header {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 96px;
+}
+.Brainwave.io {
+  font-size: 28px;
+  color: #161c2d;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Navigasiya menyusu */
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: #18191f;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  transition: all 0.3s ease;
+}
+
+.nav-items:hover {
+  color: #fb6d45;
+}
+/* Login və Sign up */
+.button {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.login {
+  text-decoration: none;
+  color: #161c2d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  transition: all 0.3s ease;
+}
+
+.login:hover {
+  color: #fb6d45;
+}
+
+/* footer */
+
+.footer {
+  background-color: #161c2d;
+  color: #ffffff;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 300px;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 15px;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.social-icons a img {
+  width: 20px;
+  margin-right: 12px;
+  transition: opacity 0.3s;
+}
+
+.social-icons a img:hover {
+  background-color: #68d585;
+  opacity: 0.7;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2 1 600px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.footer-title {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu {
+  margin-bottom: 8px;
+}
+
+.menu {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.support {
+  max-width: 700px;
+  margin: 50px auto;
+  font-family: Arial;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.support-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.support-intro {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.support-intro2 {
+  margin-bottom: 20px;
+}
+
+.support-section {
+  margin-bottom: 30px;
+}
+
+.support-section h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.support-section p,
+.support-section li {
+  font-size: 15px;
+}
+
+.support-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.support-section li {
+  margin-bottom: 10px;
+}
