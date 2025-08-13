@@ -310,15 +310,16 @@ body {
 }
 
 .step-number {
-  width: 43px;
+  min-width: 43px;
   height: 43px;
   background-color: var(--primary-color);
   color: var(--text-color-light);
+  font-size: 17px;
   font-weight: 700;
   border-radius: 50%;
   text-align: center;
   line-height: 29px;
-  padding-top: 8px;
+  padding: 7px;
 }
 
 .step-title {

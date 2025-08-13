@@ -23,12 +23,18 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: var(--color-bg);
-  font-family: var(--font-main);
-  min-height: 100vh;
+html, body {
+  height: 100%;
 }
 
+body {
+  background-color: var(--color-light-gray);
+  font-family: var(--font-main);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
 .site-header {
   width: 100%;
   background-color: var(--color-white);
@@ -44,32 +50,42 @@ body {
   color: var(--color-dark);
 }
 
+/* Main content */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px; 
+}
+
+.signup-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: var(--color-text);
+}
 
 .container {
-  background-color: var(--color-light-gray);
-  padding: 40px 30px;
+  background-color: var(--color-white);
+  padding: 30px;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
   width: 100%;
   max-width: 400px;
-  margin: 40px auto;
   text-align: center;
 }
 
 
-.title {
-  font-size: 60px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  line-height: 65px;
-}
-
-.subtitle {
-  font-size: 19px;
-  line-height: 32px;
-  font-weight: 400;
-  margin-bottom: 30px;
-}
 
 .signup-form {
   display: flex;
@@ -95,7 +111,7 @@ body {
 .signup-form button {
   background-color: var(--color-primary);
   color: white;
-  padding: 12px;
+  padding: 14px;
   font-size: 16px;
   border: none;
   border-radius: var(--radius-sm);
