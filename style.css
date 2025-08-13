@@ -310,7 +310,7 @@ body {
 }
 
 .step-number {
-  width: 43px;
+  min-width: 43px;
   height: 43px;
   background-color: var(--primary-color);
   color: var(--text-color-light);
